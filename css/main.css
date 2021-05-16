@@ -1624,6 +1624,10 @@ textarea.form-control, textarea.form-control:focus {
   color: greenyellow;
  
 }
+.portfolio-grid figure .react-icon {
+  color: cyan;
+}
+
 .portfolio-grid figure .name {
   display: block;
   padding: 15px 0;
