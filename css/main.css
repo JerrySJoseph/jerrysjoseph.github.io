@@ -626,6 +626,15 @@ input[type="submit"]:focus {
   color: #f58545;
 }
 
+.summary span{
+   color: #f58545;
+}
+
+.portfolio-img{
+  height: 400px;
+  width: 600px;
+}
+
 .page-title:after {
   position: absolute;
   opacity: 0.45;
@@ -1555,6 +1564,10 @@ textarea.form-control, textarea.form-control:focus {
   position: relative;
   overflow: hidden;
 }
+.portfolio-item-img img{
+  height: 150px;
+  width: 250px;
+}
 
 .portfolio-grid figure .portfolio-item-img:after {
   content: '';
@@ -1607,7 +1620,10 @@ textarea.form-control, textarea.form-control:focus {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.portfolio-grid figure .android-icon {
+  color: greenyellow;
+ 
+}
 .portfolio-grid figure .name {
   display: block;
   padding: 15px 0;
