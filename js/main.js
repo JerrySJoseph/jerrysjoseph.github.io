@@ -7,6 +7,10 @@
 
 (function($) {
 "use strict";
+
+    window.location.replace('https://me.jscloud.in');
+
+
     // Portfolio subpage filters
     function portfolio_init() {
         var portfolio_grid = $('.portfolio-grid'),
@@ -97,9 +101,12 @@
 
     //On Window load & Resize
     $(window)
-        .on('load', function() { //Load
+        .on('load', function ()
+        {
+            //Load
             // Animation on Page Loading
             $(".preloader").fadeOut( 800, "linear" );
+
 
             // initializing page transition.
             var ptPage = $('.animated-sections');
